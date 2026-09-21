@@ -1,0 +1,16 @@
+
+
+#Server Exculsions
+server/node_modules/
+server/.env
+server/.env.local
+
+#Client Exclusions
+client/node_modules/
+client/dist/
+client/.env
+client/env.local
+
+#General Exclusions
+*.log
+.DS_Store
