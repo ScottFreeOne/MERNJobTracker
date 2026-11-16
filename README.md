@@ -1,4 +1,4 @@
-# 🚀 Job Board Tracker
+# Job Board Tracker
 
 A full-stack web application designed to help job seekers track, manage, and organize their job applications using a Kanban board interface. Built with a React frontend and a Node.js/Express/MongoDB backend, it features offline local storage capabilities with optional cloud synchronization.
 
@@ -18,7 +18,7 @@ A full-stack web application designed to help job seekers track, manage, and org
 
 ---
 
-## ✨ Features
+## Features
 
 * **Kanban Board View:** Organize jobs visually across status stages (`Added`, `Looking`, `Applied`, `Interviewing`, `Offer`, `Rejected`).
 * **Offline-First / Local Mode:** Automatically saves data to browser `localStorage` so you can use it even without an active server connection.
@@ -27,7 +27,7 @@ A full-stack web application designed to help job seekers track, manage, and org
 
 ---
 
-## ⚙️ Setup & Installation
+## Setup & Installation
 
 ### Prerequisites
 Make sure you have **Node.js** and **npm** installed on your machine, along with a local or cloud **MongoDB** URI.
