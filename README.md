@@ -4,7 +4,7 @@ A full-stack web application designed to help job seekers track, manage, and org
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 * **React** (with Vite)
