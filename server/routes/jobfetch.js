@@ -29,7 +29,7 @@ router.post('/', async (req, res) =>{
             
             res.status(200).json({job});
         } catch (err) {
-            res.status(500).json({ Error: err.message});
+            res.status(500).json({message: err.message});
         }
     }
 );
@@ -51,7 +51,7 @@ router.put('/:localId', async(req, res) => {
 
         res.json(updatedJob);
     } catch (err) {
-        res.status(400).json({message: err.message });
+        res.status(500).json({message: err.message });
         }
 });
 

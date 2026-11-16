@@ -105,7 +105,10 @@ export default function App() {
     if (isServerOnline) {
       try {
         await axios.put(`/api/jobs/${localId}`, { status: newStatus });
-      } catch (e) {}
+      } catch (err) {
+        console.error('Failed to update job status on server:', err.response?.data || err.message);
+        setSyncStatus('Failed to update job status.');
+      }
     }
   };
 
@@ -114,7 +117,10 @@ export default function App() {
     if (isServerOnline) {
       try {
         await axios.delete(`/api/jobs/${id}`);
-      } catch (e) {}
+      } catch (err) {
+        console.error('Failed to delete job from server:', err.response?.data || err.message);
+        setSyncStatus('Failed to delete job.');
+      }
     }
   };
 
